@@ -1,18 +1,29 @@
 //Print the nth entry in the fibonacci series .
 //Fibonacci series is an ordering of numbers where each number is the sum of preceding two.
 
-function fib(n){
+//Iterative solution
 
-    const fibonacci = [0,1];
+// function fib(n){
+
+//     const fibonacci = [0,1];
     
-    for(let i =2; i<=n; i++){
-        const a = fibonacci[i-1];
-        const b = fibonacci[i-2];
-        fibonacci.push(a+b);
+//     for(let i =2; i<=n; i++){
+//         const a = fibonacci[i-1];
+//         const b = fibonacci[i-2];
+//         fibonacci.push(a+b);
 
+//     }
+//     console.log(fibonacci[n]);
+//     return fibonacci[n];
+// }
+
+//Solution using recursion 
+
+function fib(n){
+    if(n<2){
+        return n;
     }
-    console.log(fibonacci[n]);
-    return fibonacci[n];
+    console.log((n-1) + (n-2));
+    return (n-1) + (n-2);
 }
-
-fib(10);
+fib(6);
