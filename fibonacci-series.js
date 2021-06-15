@@ -27,3 +27,4 @@ function fib(n){
     return (n-1) + (n-2);
 }
 fib(6);
+
