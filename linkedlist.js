@@ -152,7 +152,7 @@ newNode.next = null;
 
  }
 
-
+module.exports = LinkedList;
 
  
 
@@ -161,9 +161,9 @@ newNode.next = null;
 
 
 
-const nodeOne = new Node(5);
-const list = new LinkedList();
-list.head = nodeOne;
-list.insertFirst(80);
-console.log(list);
-console.log(list.size());
+// const nodeOne = new Node(5);
+// const list = new LinkedList();
+// list.head = nodeOne;
+// list.insertFirst(80);
+// console.log(list);
+// console.log(list.size());
