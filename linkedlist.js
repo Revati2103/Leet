@@ -152,7 +152,7 @@ newNode.next = null;
 
  }
 
-module.exports = LinkedList;
+module.exports = {Node,LinkedList}
 
  
 

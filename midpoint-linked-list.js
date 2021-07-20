@@ -1,4 +1,4 @@
-const LinkedList = require('./linkedlist');
+
 const list = require('./linkedlist');
 
 function midpoint(list){
@@ -16,7 +16,7 @@ function midpoint(list){
     
 }
 
-const l = new LinkedList();
+const l = new list();
 l.insertLast('a');
 l.insertLast('b');
 l.insertLast('c');
