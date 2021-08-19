@@ -12,6 +12,7 @@ class LinkedList {
 // Insert data into the linked list
     insertFirst(data){
         this.head= new Node (data, this.head);
+        this.head = node;
     }
 
 // Find size of the Linked List(count the no of nodes)
