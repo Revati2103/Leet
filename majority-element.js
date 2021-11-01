@@ -1,23 +1,48 @@
-var isMajorityElement = function(nums, target) {
+// var isMajorityElement = function(nums, target) {
     
-    let count = 0;
+//     let count = 0;
+//     let result;
     
-    for(let i = 0; i< nums.length ; i++){
+//     for(let i = 0; i< nums.length ; i++){
         
-        if (nums[i] === target){
-            count++;
+//         if (nums[i] === target){
+//             count++;
        
-             }
+//              }
 
-    if(count > nums.length/2){
-        console.log("Is majority");
+//     if(count > nums.length/2){
+//         result = true;
+
+//     }else{
+    
+//         result = false;
+//     }
+//     }
+    
+//     return result;
+// };
+
+//Using Map
+var isMajorityElement = function(nums, target) {
+    var map = {};
+    
+    for(var i=0 ; i < nums.length ; i++) {
+        if(!(nums[i] in map)) {
+            map[nums[i]] = 1;
+        } else{
+             map[nums[i]] ++;
+        }
+    }
+    
+    if(map[target] > Math.floor(nums.length/2)) {
         return true;
-    }else{
-        console.log("Is not a majority");
+    } else {
         return false;
     }
-    }
+
 };
+
+//Sample input
 
 // nums = [2,4,5,5,5,5,5,6,6];
 // target = 5;
