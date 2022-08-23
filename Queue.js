@@ -1,22 +1,50 @@
-class Queue {
-
-    constructor(){
-        this.data = [];
-    }
-
-    add(record){
-        this.data.unshift(record);
-    }
-
-    remove(){
-       return this.data.pop();
-    }
-
-    peek(){
-    	return this.data[this.data.length -1];
+class Node {
+    constructor(value){
+        this.value = value
+        this.next = null
     }
 }
 
-// const q = new Queue();
-// q.remove();
-// console.log(q);
+class Queue {
+    constructor(value) {
+        const newNode = new Node(value)
+        this.first = newNode
+        this.last = newNode
+        this.length = 1
+    }
+
+    enqueue(value){
+        let newNode = new Node(value);
+
+        if(this.length === 0){
+            this.first = newNode;
+            this.last = newNode;
+        }else{
+            this.last.next = newNode;
+            this.last = newNode;
+        }
+        this.length ++;
+        return this;
+    }
+
+    dequeue(value){
+        if(this.length === 0) return undefined;
+
+        let temp = this.first;
+        if(this.length === 1){
+            this.first = null;
+            this.last = null;
+        }else {
+            this.first = this.first.next;
+            temp.next = null;
+        }
+        this.length--;
+        return this;
+        
+
+    }
+}
+
+
+let myQueue = new Queue(4)
+myQueue
