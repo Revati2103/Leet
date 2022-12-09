@@ -38,6 +38,39 @@ class BST {
             }
         }
     }
+
+    contains(value){
+        if(this.root === null) return false
+        let temp = this.root;
+
+        while(temp){
+            if(value < temp.value){
+                temp = temp.left;
+            }else if(value > temp.value){
+                temp = temp.right;
+            }else {
+                return true
+            }
+        }
+
+        return false;
+    }
+
+    BFS(){
+        let currentNode = this.root;
+        let queue = [];
+        let result = [];
+
+        queue.push(currentNode);
+        while(queue.length){
+            currentNode = queue.shift();
+            result.push(currentNode.value);
+            if(currentNode.left) queue.push(currentNode.left);
+            if(currentNode.right) queue.push(currentNode.right);
+
+        }
+        return result;
+    }
 }
 
 let myTree = new BST();
