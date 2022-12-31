@@ -46,5 +46,5 @@ class Queue {
 }
 
 
-let myQueue = new Queue(4)
-myQueue
+// let myQueue = new Queue(4)
+// myQueue
