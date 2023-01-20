@@ -16,7 +16,7 @@ for (const item of array) {
    }
    
 }
-console.log(chunked);
+//console.log(chunked);
 
 }
 
