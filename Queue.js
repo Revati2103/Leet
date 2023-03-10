@@ -12,7 +12,7 @@ class Queue {
         this.last = newNode
         this.length = 1
     }
-
+// Enqueue
     enqueue(value){
         let newNode = new Node(value);
 
