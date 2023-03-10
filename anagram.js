@@ -3,6 +3,8 @@ function anagrams(string1,string2){
     let charMap1 = buildCharMap(string1);
     let charMap2 = buildCharMap(string2);
 
+    //If lengths are different , they can't be anagrams.
+    
     if(Object.keys(charMap1).length !== Object.keys(charMap2).length){
         console.log('Not an anagram');
         return false;
