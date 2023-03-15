@@ -1,3 +1,5 @@
+// Check if two strings have the same frequency of characters
+
 function isAnagram(str1, str2){
     if(str1.length !== str2.length){
         return false;
