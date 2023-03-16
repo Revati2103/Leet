@@ -5,7 +5,6 @@
  * @returns {array} ex: [1,2,3,4,5]
  */
 const flattenArray = (arr) => {
-    // add your code here
     const flat = []
   
     arr.forEach(item => {
