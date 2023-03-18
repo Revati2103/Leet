@@ -1,5 +1,7 @@
 const {LinkedList,Node} = require('./linkedlist');
 
+// Check if list is a circular linked list. 
+
 function circular(list){
 
     const list = new LinkedList();
