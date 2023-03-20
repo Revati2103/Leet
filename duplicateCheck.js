@@ -1,3 +1,5 @@
+// If duplicate args return true else false
+
 function areThereDuplicates(...args) {
     const set = new Set();
     
