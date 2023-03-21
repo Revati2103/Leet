@@ -1,3 +1,5 @@
+//return no of unique elements in an array
+
 function countUniqueValues(arr){
     let result = {};
         if(!arr.length) return 0;
