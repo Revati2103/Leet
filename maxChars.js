@@ -1,5 +1,6 @@
 function maxChars(str){
 
+    //return the count of max repeating character in a string
     const charMap = {};
     let max = 0;
     let maxChar = '';
