@@ -1,3 +1,5 @@
+//Find the first non repeating character in a String.
+
 function firstNonRepeatingChar(str){
 let charMap = new Map();
 
