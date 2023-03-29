@@ -1,3 +1,4 @@
+// return the first repeating character 
 
 function firstRepeatChar(word){
 
