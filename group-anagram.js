@@ -1,3 +1,5 @@
+//anagrams 
+
 var groupAnagrams = function (strs) {
     const anagrams = new Map();
     
