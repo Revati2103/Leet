@@ -3,19 +3,19 @@
 
 //Iterative solution
 
-// function fib(n){
+ function fib(n){
 
-//     const fibonacci = [0,1];
+     const fibonacci = [0,1];
     
-//     for(let i =2; i<=n; i++){
-//         const a = fibonacci[i-1];
-//         const b = fibonacci[i-2];
-//         fibonacci.push(a+b);
+   for(let i =2; i<=n; i++){
+       const a = fibonacci[i-1];
+       const b = fibonacci[i-2];
+      fibonacci.push(a+b);
 
-//     }
-//     console.log(fibonacci[n]);
-//     return fibonacci[n];
-// }
+    }
+    console.log(fibonacci[n]);
+     return fibonacci[n];
+}
 
 //Solution using recursion 
 
