@@ -1,3 +1,5 @@
+// Bubble sort 
+
 function bubbleSort(arr){
     var noSwaps;
     for(let i = arr.length; i>=0; i--){
