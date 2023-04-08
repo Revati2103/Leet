@@ -12,6 +12,8 @@
 // Input: nums = [1,2,3,4]
 // Output: false
 
+// using map 
+
 var containsDuplicate = function(nums) {
     const checker = new Map();
     
