@@ -1,3 +1,5 @@
+//O(n2) solution
+
 var heightChecker = function(heights) {
     const expected = heights.sort();
     let unsorted = 0;
