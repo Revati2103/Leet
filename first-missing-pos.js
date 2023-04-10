@@ -1,5 +1,5 @@
 var firstMissingPositive = function(nums) {
-    // First, we need to understand that the first missing positive number is less than or equal to n (length of array) except for one case. The explanation is in the above.
+    // We need to understand that the first missing positive number is less than or equal to n (length of array) except for one case. The explanation is in the above.
     // We will position every positive integer in the array at its corresponding index
     // ex) 1 at index 0, 2 at index 1, 3 at index 2
     // In this way, the array can position all integers that are less than or equal to n at their corresponding indices without changing the size of given array.
