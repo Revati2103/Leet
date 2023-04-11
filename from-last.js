@@ -1,3 +1,5 @@
+// get the first element in the linked list starting from the end 
+
 function fromLast(list,n){
 let slow = list.getFirst();
 let fast = list.getFirst();
