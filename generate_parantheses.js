@@ -1,3 +1,4 @@
+// Add paranthesis to make it a valid set
 var generateParenthesis = function(n) {
     const ans = [];
     
