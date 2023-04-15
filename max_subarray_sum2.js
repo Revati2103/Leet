@@ -1,3 +1,5 @@
+// Calculate and return max sun of elements in array .
+
 function maxSubArraySum(arr, num){
     let maxSum = 0;
     let tempSum = 0;
