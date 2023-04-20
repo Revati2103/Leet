@@ -1,3 +1,5 @@
+// divide without using the division operator 
+
 function divide(dividend, divisor) {
  
     // Calculate sign of divisor i.e.,
