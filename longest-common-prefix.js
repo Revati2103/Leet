@@ -13,6 +13,7 @@
 //     return commonStr;
 // };
 
+// Return the longest common substring between given words . 
 var longestCommonPrefix = function(strs){
     if(!strs.length) return '';
     let prefix = "";
