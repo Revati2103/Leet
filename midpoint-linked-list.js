@@ -1,3 +1,4 @@
+//return the midpoint of a linked list 
 
 const list = require('./linkedlist');
 
