@@ -1,3 +1,5 @@
+//Remove an element from a singly-linked list.
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
