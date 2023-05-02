@@ -1,3 +1,5 @@
+//Constructor
+
 class Tree {
     constructor (){
         this.root = null;
