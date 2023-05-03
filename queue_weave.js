@@ -1,4 +1,7 @@
 //let Queue = require('./Queue');
+
+//Constructor 
+
 class Queue {
     constructor() {
       this.data = [];
