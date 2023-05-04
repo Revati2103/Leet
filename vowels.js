@@ -1,3 +1,5 @@
+// Check and return the count of vowels in a sentence.
+
 function vowels(str){
     let count = 0;
     const checker = ['a','e','i','o','u'];
