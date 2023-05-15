@@ -1,3 +1,5 @@
+// Convert roman numerals to integers
+
 symbols = {
     
     "I" : 1,
