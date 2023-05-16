@@ -1,15 +1,13 @@
 var longestPalindrome = function(s) {
-    
-    let start = 0;
-    let end = 0;
-    let longestPal = "";
-
-    if(s.length = 0)
-    return;
-
-    for(let i = 0; i< s.length; i++){
-        
-    }
-
-
+    let result = 0;
+    const mem = new Set();
+    for(let i=0; i<s.length; i++) {
+        if(mem.has(s[i])) {
+            result+=2;
+            mem.delete(s[i]);
+        } else { 
+            mem.add(s[i]);
+        }
+    };
+    return result + (mem.size > 0 ? 1 : 0);
 };
