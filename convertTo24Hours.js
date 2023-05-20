@@ -1,3 +1,5 @@
+// convert time to 24hr format
+
 const convertTo24Hours = (timeText) => {
     const timeTextLower = timeText.toLowerCase();
     let [hours , mins] = timeTextLower.split(":");
