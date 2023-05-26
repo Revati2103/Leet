@@ -1,3 +1,5 @@
+// check if a string is a palindrome
+
 function isPalindrome(str){
 
 let revstr = "";
