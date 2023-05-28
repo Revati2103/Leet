@@ -1,3 +1,5 @@
+// check if one string is contained in another string
+
 function naiveSearch(long, short){
     var count=0;
         for(let i = 0; i< long.length; i++){
