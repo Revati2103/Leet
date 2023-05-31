@@ -1,3 +1,5 @@
+// insertion sort
+
 function insertionSort(arr){
 	var currentVal;
     for(var i = 1; i < arr.length; i++){
