@@ -13,8 +13,8 @@ function solution(inputArray) {
         let diff = Math.abs(inputArray[j] - inputArray[i])
         if(diff > maxDifference){
             maxDifference = diff;
-            i++;
         }
+  i++;
     }
     return maxDifference;
 
