@@ -1,4 +1,4 @@
-// check if one string is contained in another string
+// check if one string is contained in another string.
 
 function naiveSearch(long, short){
     var count=0;
