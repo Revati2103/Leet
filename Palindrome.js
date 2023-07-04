@@ -1,4 +1,4 @@
-// check if a string is a palindrome
+// check if a string is a palindrome.
 
 function isPalindrome(str){
 
