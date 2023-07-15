@@ -1,7 +1,8 @@
-// In this lab, you will implement a function that solves the Single Number problem. You must develop a solution with linear runtime complexity and use only constant extra space. Your function should work on a non-empty array of integers nums, where every element appears twice except for one. Find that single one.
+     
 
 // Problem Description
 // Given an array of integers (nums), your task is to find the single element that appears only once in the array. All the other elements appear twice in the array.
+//You must develop a solution with linear runtime complexity and use only constant extra space. Your function should work on a non-empty array of integers nums, where every element appears twice except for one. Find that single one.
 
 // Examples
 // Input: nums = [2,2,1] Output: 1
