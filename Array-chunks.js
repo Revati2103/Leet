@@ -1,4 +1,4 @@
-// Form chunks of specified size from an inout array
+// Form chunks of specified size from an input array
 
 function chunkArray(array, size){
 let chunked = [];
