@@ -1,3 +1,3 @@
 # Leetcode
-Leetcode solutions in javascript.
+Leetcode/DSA solutions in javascript.
 
