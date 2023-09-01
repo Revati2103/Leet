@@ -1,4 +1,4 @@
-// Find the location of an item in an array
+// Find the location of an item in an array.
 
 /**
  * @param {Array<number>} arr The input integer array to be searched.
