@@ -1,3 +1,4 @@
+// class 
 class Stack {
     constructor() {
         this.stackList = [];
