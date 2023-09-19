@@ -1,7 +1,4 @@
 // Three Consecutive Odds Lab
-// Easy
-// 7
-// 81.0% Acceptance
 // In this lab, you will be working with a coding problem that focuses on finding three consecutive odd numbers in a given integer array. You have to implement a function threeConsecutiveOdds(arr) that takes an integer array arr as an input and returns true if there are three consecutive odd numbers in the array. If there are no consecutive odd numbers, the function must return false.
 
 // Problem Description
