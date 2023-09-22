@@ -1,3 +1,4 @@
+// check if anagrams
 function anagrams(string1,string2){
 
     let charMap1 = buildCharMap(string1);
