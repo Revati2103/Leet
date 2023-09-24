@@ -1,4 +1,4 @@
-//Constructors
+//Constructors .
 
 class Node {
     constructor(value){
