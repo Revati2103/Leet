@@ -1,4 +1,4 @@
-// Count Common Words Occurring Once in Two Arrays
+// Count Common Words Occurring Once in Two Arrays.
 // In this lab, you will be working with two string arrays, words1 and words2. Your task is to create a function countWords that returns the number of strings that appear exactly once in each of the two arrays.
 
 // Your code should be written using ESM import/export.
